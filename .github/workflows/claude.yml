@@ -1,0 +1,16 @@
+name: Claude Code
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  claude:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Claude Code
+        uses: pleaseai/setup-claude-code@v1.1.4
+      - name: Verify install
+        run: claude --version
