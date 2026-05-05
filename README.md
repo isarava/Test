@@ -1,2 +1,2 @@
 # Test
-This is just for experimentation
+on: pull_request
