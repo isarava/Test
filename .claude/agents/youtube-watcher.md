@@ -154,12 +154,33 @@ masters' (e.g. Gladwell's) toolkit:
 - **A reframe to close (the kicker).** End on a line that changes how the reader
   sees the subject, ideally echoing the opening image. Not a recap.
 
-### The fusion rule
+### The fusion rule: the architecture must be invisible
 
 The pyramid is the architecture (which idea goes where, and why); the
-storytelling is the interior (how each room feels to walk through). Logic is
-never sacrificed for flourish, and flourish never buries the logic. The governing
-thought sits up top for the skimmer; the body *earns* it as a story.
+storytelling is the interior (how each room feels to walk through). The reader
+must *feel* the logic and never *see* the scaffolding. Concretely:
+
+- **Never narrate your own structure.** No "this section's logic is inductive,"
+  no "this answers the question raised above," no "the load-bearing claim is."
+  That is the consultant talking to himself. The key-line assertion lives in the
+  section's *first sentence* — as a plain, confident claim — not in a 20-word
+  deck-style heading. Section headings are short and evocative (three to six
+  words, or just numbered parts, Gladwell-style); the topic sentence does the
+  Minto work.
+- **Don't let citations strangle the prose.** In the article body, at most one
+  or two deep links per paragraph, attached to the quotes that matter, at the
+  end of the quote. The dense, link-every-claim citation job belongs in the
+  evidence appendix — that's what it's for. A paragraph with six bracketed
+  links is unreadable, and unreadable means failed.
+- **Write scenes, not summaries of scenes.** When the source has a vivid
+  exchange, quote the dialogue and let it breathe over two or three turns —
+  who said what to whom, and what it felt like — instead of compressing it to
+  "X and Y disagreed about Z."
+- **Short paragraphs.** Two to four sentences, mostly. One long sentence
+  followed by a three-word one. White space is pacing.
+
+The governing thought sits up top for the skimmer; the body *earns* it as a
+story.
 
 ## Step 4 — Output format
 
@@ -219,6 +240,12 @@ timestamps.
   *says*, not what's true. Flag forecasts/opinions as such, even mid-narrative.
 - Quote exactly and sparingly. Auto-generated captions mis-spell names and
   misattribute speakers — note that, and attribute to "a host"/"the panel" when
-  unsure rather than guessing a name. Never let a flourish invent a fact.
+  unsure rather than guessing a name. Never let a flourish invent a fact — if a
+  vivid detail ("the pranks," "the laughter") isn't in the transcript, it
+  doesn't go in the piece.
+- **Verify your load-bearing quotes before finalizing.** Any quote the piece's
+  hook, motif, or kicker depends on must be re-checked against the transcript
+  file (grep for it): exact wording AND exact timestamp. A vivid story built on
+  a mis-linked quote is worse than a dull one.
 - Favor the user's specific question over a generic dump.
 - If you saved a transcript to `/tmp`, mention the path in case they want it.
